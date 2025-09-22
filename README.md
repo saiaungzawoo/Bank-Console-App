@@ -52,7 +52,6 @@ Scalability: Modular design with OOP principles, making it easier to add feature
 
 
 Example Run
-
 ----------------
 
 
@@ -91,7 +90,6 @@ Your account has been successfully created!
 
 
 Account Details:
-
 -----------------
 
 Name: Sai Sai
@@ -158,16 +156,15 @@ You can do the bank operation until you choose to log out and exit the program.
 ---------------------
 
 Project Structure
-
 -------------------
 
 Bank Console App/
+│ 
+│ 			├─ src/
 
-├─ src/
+│   		└─ main/
 
-│   └─ main/
-
-│       └─ java/
+│       	└─ java/
 
 │           └─ BankSystem/
 
@@ -187,7 +184,51 @@ Bank Console App/
 How to Run
 ------------
 
-Clone the repo → open in IDE → run `Main.java`
+Prerequisites
+
+Java 24 (JDK 24) installed on your system.
+
+Eclipse Temurin or Oracle JDK is fine.
+
+IntelliJ IDEA (optional, for running inside IDE).
+
+Git (optional, for cloning the repository).
+
+1️⃣ Running in IntelliJ IDEA
+
+Clone the repository and open the project in IntelliJ:
+
+git clone https://github.com/yourusername/Bank-Console-App.git
+
+
+Make sure the Project SDK is set to Java 24:
+
+File → Project Structure → Project → Project SDK → Select JDK 24
+
+Make sure the working directory is the project root:
+
+Run → Edit Configurations → Working directory → Bank_Console_App/
+
+Open Main.java and click Run.
+
+The program will run in the IntelliJ console.
+
+2️⃣ Running in Windows CMD or MacOS Terminal 
+
+Open CMD or Terminal and navigate to the project root:
+
+cd path\to\Bank_Console_App
+
+
+Compile the Java files into an output folder:
+
+javac -d out src\main\java\BankSystem\*.java
+
+
+
+Run the program:
+
+java -cp out BankSystem.Main
 
 
 Purpose
