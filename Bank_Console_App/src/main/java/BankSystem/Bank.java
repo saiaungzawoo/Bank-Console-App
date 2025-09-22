@@ -11,7 +11,7 @@ public class Bank {
     private BankAccount account; //object for sign up, log in
 
     //create file
-    private static final String accountFile = "src/data/accounts.txt";
+    private static final String accountFile = "data/accounts.txt";
 
 
     //getter for file
