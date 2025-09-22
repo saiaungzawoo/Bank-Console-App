@@ -13,6 +13,12 @@ target/
 *.iml
 *.ipr
 
+# Ignore compiled Java files
+*.class
+
+# Ignore output folders
+out/
+
 ### Eclipse ###
 .apt_generated
 .classpath
