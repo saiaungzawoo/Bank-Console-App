@@ -54,7 +54,7 @@ Scalability: Modular design with OOP principles, making it easier to add feature
 Example Run
 ----------------
 
-
+```
 Welcome to the Bank!
 
 
@@ -146,7 +146,8 @@ Login successful. Welcome to the bank Sai Sai
 
 
 
-Please enter your choice:
+Please enter your choice: 
+```
 
 
 -----------------------------
@@ -160,7 +161,7 @@ Project Structure
 
 Bank Console App/
 │ 
-│ 			├─ src/
+│ 		├─ src/
 
 │   		└─ main/
 
@@ -198,8 +199,7 @@ Git (optional, for cloning the repository).
 
 Clone the repository and open the project in IntelliJ:
 
-git clone https://github.com/yourusername/Bank-Console-App.git
-
+```git clone https://github.com/saiaungzawoo/Bank-Console-App.git```
 
 Make sure the Project SDK is set to Java 24:
 
@@ -217,18 +217,17 @@ The program will run in the IntelliJ console.
 
 Open CMD or Terminal and navigate to the project root:
 
-cd path\to\Bank_Console_App
+```cd path\to\Bank_Console_App```
 
 
 Compile the Java files into an output folder:
 
-javac -d out src\main\java\BankSystem\*.java
-
+```javac -d out src\main\java\BankSystem\*.java```
 
 
 Run the program:
 
-java -cp out BankSystem.Main
+```java -cp out BankSystem.Main```
 
 
 Purpose
